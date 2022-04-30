@@ -1,0 +1,224 @@
+.FirstDiv{
+position: relative;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+.video1{
+    position: relative;
+    object-fit: cover;
+    overflow-y: visible;
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: black;
+
+}
+.Nav1{padding-top: 20px;
+    padding-left: 64px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 470px;
+    z-index: 2;
+    align-items: center;
+}
+.Nav2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: white;
+}
+.Navloginbutton{
+    background-color: transparent;
+    border-color: white;
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+}
+.AdAndImageContainer{
+    position: absolute;
+    top: 300px;
+    left: 450px;
+    width: 500px;
+}
+.ImageContainer{
+width: 125px;
+}
+.ImageInFirstDiv{
+height: 100px;
+width: 100px;
+max-width: 100%;
+}
+.AdContainer{
+    width: 500px;
+    object-fit: fill;
+}
+.text1{
+color: white;
+font-size: 45px;
+}
+.text2{
+    color: white;
+    font-size: 20px;
+
+}
+.ButtonContainer1{
+
+}
+.SignUp{
+background-color: white;
+border-radius: 10px;
+height: 30px;
+width: 100px;
+border: 0px;
+}
+.LearnMore{
+background-color: transparent;
+border: 0px;
+color: white;
+}
+.gradient{
+    /* /* background: rgba(0,0,0,.4); */
+    background-image: -webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,.8)),color-stop(60%,rgba(0,0,0,0)),to(rgba(0,0,0,.8)));
+    background-image: -webkit-linear-gradient(bottom,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    background-image: -moz- oldlinear-gradient(bottom,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    background-image: -o-linear-gradient(bottom,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(50%,rgba(0,0,0,0)),to(rgba(0,0,0,.7))),radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%);
+    background-image: -webkit-linear-gradient(bottom,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),-webkit-radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%);
+    background-image: -moz- oldlinear-gradient(bottom,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),-moz- oldradial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%);
+    background-image: -o-linear-gradient(bottom,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),-o-radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%);
+    background-image: linear-gradient(to top,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;} 
+.SecondDiv{
+position: relative;
+margin-bottom: 0;
+}
+.AdAndImageContainer1{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black;
+gap: 50px;
+}
+.ImageContainer1{
+
+}
+.ImageInSecondDiv{
+height: 300px;
+width: 260px;
+margin-bottom: ;
+}
+.AdContainer1{
+color: white;
+}
+.text3{
+
+}
+.text4{
+
+}
+.explore{
+background-color: white;
+border-radius: 20px;
+height: 30px;
+border: 0px;
+}
+.ThirdDiv{
+
+}
+.AdAndImageContainer2{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+background-color: red;
+}
+.ImageContainer2{
+
+}
+.ImageInThirdDiv{
+height: 300px;
+width: 400px;
+}
+.AdContainer2{
+    color: white;
+}
+.text5{
+
+}
+.text6{
+    
+}
+.shop{
+background-color: white;
+border-radius: 20px;
+height: 35px;
+border: 0px;
+}
+.MainFooter{
+    background-color: rgb(95, 2, 2);
+    color: white;
+display: flex;
+flex-direction: row;
+gap: 70px;
+}
+.Footer1{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.Footer2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Footer3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Footer4{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Footer5{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Footer6{
+    padding-left: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icon1{
+    height: 20px;
+    width: 20px;
+}
+.icon2{
+    height: 20px;
+    width: 20px;
+}
+.icon3{
+    height: 20px;
+    width: 20px;
+}.icon4{
+    height: 20px;
+    width: 20px;
+}
